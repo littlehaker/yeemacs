@@ -1,3 +1,9 @@
+(setq default-directory "~")
+
+;; add exec-path
+(setq exec-path (append exec-path '("/usr/local/bin")))
+
+
 (helm-mode)
 
 ;; guide key
@@ -10,6 +16,7 @@
 
 ;; auto-complete
 (global-auto-complete-mode)
+(yas-global-mode)
 
 ;; backup in one dir
 (setq
@@ -24,6 +31,8 @@
 (setq auto-mode-alist
       (append '(("\\.js\\'" . js2-mode)
 		("\\.jsx\\'" . js2-mode)
+		("\\.html\\'" . web-mode)
+		("\\.htm\\'" . web-mode)
 		("\\.tpl\\'" . web-mode))
     auto-mode-alist))
 

@@ -16,4 +16,12 @@
 (show-paren-mode t)
 (setq show-paren-style 'expression)
 
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(web-mode-html-tag-face ((t (:inherit font-lock-keyword-face)))))
+
+
 (provide 'yeemacs-ui)
