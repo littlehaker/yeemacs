@@ -8,7 +8,7 @@
 
 ;; guide key
 
-(setq guide-key/guide-key-sequence '("C-x" "C-c" "<space>"))
+;; (setq guide-key/guide-key-sequence '("C-x" "C-c" "<space>"))
 (guide-key-mode 1)
 
 ;; linum-mode
