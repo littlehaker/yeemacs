@@ -66,6 +66,14 @@
   "cr" 'comment-or-uncomment-region
   "cv" 'evilnc-toggle-invert-comment-line-by-line)
 
+;; expand-region
+(global-set-key (kbd "C-=") 'er/expand-region)
+(global-set-key (kbd "C--") 'er/contract-region)
+(evil-leader/set-key "v" 'er/expand-region)
+(custom-set-variables
+ '(expand-region-contract-fast-key "V")
+ '(expand-region-reset-fast-key "r"))
+
 (evil-leader/set-key
   "ag" 'helm-ag)
 

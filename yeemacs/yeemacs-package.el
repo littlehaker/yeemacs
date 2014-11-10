@@ -72,6 +72,9 @@
 
     ;; keychord
     key-chord
+
+    ;; expand-region
+    expand-region
     ))
 
 (dolist (p yeemacs-packages)
