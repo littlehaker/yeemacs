@@ -42,4 +42,7 @@
 ;; keychord
 (key-chord-mode 1)
 
+;; change all yes-or-no to y-or-n
+(fset 'yes-or-no-p 'y-or-n-p)
+
 (provide 'yeemacs-misc)
