@@ -29,6 +29,7 @@
     evil-leader
     evil-surround
     evil-nerd-commenter
+    evil-matchit
     
     neotree
 
@@ -64,6 +65,10 @@
     js2-refactor
     tern
     tern-auto-complete
+    js-doc
+
+    ;; json
+    json-mode
 
     ;; keychord
     key-chord

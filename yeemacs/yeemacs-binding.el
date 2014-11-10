@@ -71,5 +71,7 @@
 
 ;; evil insert state
 (key-chord-define evil-insert-state-map "jj" 'evil-normal-state)
+(define-key evil-insert-state-map (kbd "C-;") 'insert-semicolon-at-end-of-line)
+(define-key evil-insert-state-map (kbd "s-y") 'undo-tree-redo)
 
 (provide 'yeemacs-binding)

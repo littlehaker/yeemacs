@@ -7,6 +7,7 @@
 
 (require 'yeemacs-evil)
 (require 'yeemacs-misc)
+(require 'yeemacs-func)
 
 (require 'yeemacs-elisp)
 (require 'yeemacs-js)
