@@ -15,9 +15,10 @@
 
 ;; projectile
 (global-set-key (kbd "s-P") 'helm-projectile)
-(global-set-key (kbd "s-o") 'helm-projectile)
+;; (global-set-key (kbd "s-o") 'helm-projectile)
 
-(global-set-key (kbd "s-r") 'helm-occur)
+(global-set-key (kbd "s-o") 'helm-occur)
+(global-set-key (kbd "s-r") 'helm-imenu)
 
 ;; cursor move
 (global-set-evil-key (kbd "C-a") 'move-beginning-of-line)
@@ -43,6 +44,7 @@
   "hb" 'helm-buffers-list
   "hp" 'helm-projectile
   "ho" 'helm-occur
+  "hi" 'helm-imenu
   "hx" 'helm-M-x)
 
 (evil-leader/set-key
