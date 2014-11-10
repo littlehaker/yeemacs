@@ -6,6 +6,9 @@
 ;; buffer list
 (global-set-key (kbd "s-b") 'helm-buffers-list)
 
+;; window switch
+(global-set-key (kbd "s-w") 'other-window)
+
 ;; M-x
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "s-p") 'helm-M-x)
