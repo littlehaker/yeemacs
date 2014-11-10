@@ -21,7 +21,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(web-mode-html-tag-face ((t (:inherit font-lock-keyword-face)))))
-
+ '(web-mode-html-tag-face ((t (:inherit font-lock-function-name-face))))
+ '(web-mode-html-attr-name-face ((t (:inherit font-lock-keyword-face)))))
 
 (provide 'yeemacs-ui)
