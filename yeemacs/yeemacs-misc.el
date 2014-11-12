@@ -35,7 +35,7 @@
 		("\\.html\\'" . web-mode)
 		("\\.htm\\'" . web-mode)
 		("\\.tpl\\'" . web-mode))
-    auto-mode-alist))
+	      auto-mode-alist))
 
 ;; smartparens
 (smartparens-global-mode)
@@ -45,5 +45,11 @@
 
 ;; change all yes-or-no to y-or-n
 (fset 'yes-or-no-p 'y-or-n-p)
+
+
+;; yas-snippet-dirs
+(setq yas-snippet-dirs
+      (append '(("~/.emacs.d/snippet"))
+	      yas-snippet-dirs))
 
 (provide 'yeemacs-misc)
