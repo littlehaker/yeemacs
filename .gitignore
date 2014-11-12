@@ -4,3 +4,4 @@ ac-comphist.dat
 yeemacs/**/*.elc
 auto-save-list/
 eshell/
+.mc-lists.el

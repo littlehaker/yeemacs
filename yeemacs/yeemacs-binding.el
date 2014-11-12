@@ -13,6 +13,10 @@
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "s-p") 'helm-M-x)
 
+;; multiple-cursors
+(global-set-key (kbd "s->") 'mc/mark-next-symbol-like-this)
+(global-set-key (kbd "s-<") 'mc/mark-previous-symbol-like-this)
+
 ;; projectile
 (global-set-key (kbd "s-P") 'helm-projectile)
 ;; (global-set-key (kbd "s-o") 'helm-projectile)

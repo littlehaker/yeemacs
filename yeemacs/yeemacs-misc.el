@@ -3,6 +3,7 @@
 ;; add exec-path
 (setq exec-path (append exec-path '("/usr/local/bin")))
 
+(multiple-cursors-mode)
 
 (helm-mode)
 
